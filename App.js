@@ -9,6 +9,7 @@ export default function App() {
       <Text>Hello world!</Text>
       <Button onPress={buttonPressed}title="Paina tästä" />
       <Image style={{  width:250, height:100 }}source={require('./img/logo.png')}  />
+      <Image style={{  width:250, height:100 }}source={{  uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Haaga-Helia_Pasila.jpg/1280px-Haaga-Helia_Pasila.jpg'}} />
       <StatusBar style="auto" />
     </View>
   );
